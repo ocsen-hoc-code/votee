@@ -189,3 +189,9 @@ All knobs are at the bottom of `resolver-v2.js`:
 - **`seed`** — `new WordleSolver(API_BASE_URL, 12345)` to play a different fixed word, or replace the constructor default (`10`) with a random value for a fresh game each run.
 - **Opener word** — the `"salet"` literal in `play()`.
 - **`maxAttempts`** — attempt limit in `play()` (default 6).
+
+## Credits
+
+- **Algorithm design** — researched and developed with the help of [Gemini](https://gemini.google.com).
+- **README.md** — created with [DeepSeek](https://www.deepseek.com) and [Claude CLI](https://claude.ai).
+- **Word dictionary** — the 5-letter English word list is sourced from [darkermango/5-Letter-words](https://raw.githubusercontent.com/darkermango/5-Letter-words/main/words.txt).
